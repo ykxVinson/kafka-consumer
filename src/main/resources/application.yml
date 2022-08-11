@@ -1,0 +1,9 @@
+
+server:
+  port: 8081
+spring:
+  kafka:
+    bootstrap-servers: 192.168.31.161:9092,192.168.31.162:9092,192.168.31.163:9092
+    consumer:
+      group-id: order
+
