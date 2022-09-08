@@ -11,5 +11,6 @@ public class TopicComponent {
         String topic = record.topic();
         String msg = record.value();
         System.out.println("消费者接收消息： topic--> " + topic + ", msg --> "+ msg);
+        System.out.println("test publisher");
     }
 }
